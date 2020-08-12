@@ -93,5 +93,5 @@ func readJSONFile() Values {
 }
 
 func generateRating() {
-
+	f := readJSONfile()
 }
