@@ -91,3 +91,7 @@ func readJSONFile() Values {
 
 	return content
 }
+
+func generateRating() {
+
+}
