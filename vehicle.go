@@ -27,7 +27,7 @@ type Model struct {
 }
 
 type feedbackResult struct {
-	fedbackResult, feedbackTotal, feedbackPositive, feedbackNeutral int
+	fedbackResult, feedbackTotal, feedbackPositive, feedbackNegative, feedbackNeutral int
 }
 
 type rating float32
