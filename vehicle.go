@@ -94,4 +94,7 @@ func readJSONFile() Values {
 
 func generateRating() {
 	f := readJSONfile()
+	for _, v := range f.Models {
+
+	}
 }
