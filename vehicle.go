@@ -30,7 +30,7 @@ type feedbackResult struct {
 	fedbackResult, feedbackTotal, feedbackPositive, feedbackNegative, feedbackNeutral int
 }
 
-var vehicleresult map[string]feedbackResult
+var vehicleResult map[string]feedbackResult
 
 var inventory []vehicle
 
