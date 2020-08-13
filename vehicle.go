@@ -73,7 +73,7 @@ func init() {
 func main() {
 
 	// Generate ratings for the different vehicles
-
+	generateRating()
 	// Print ratings for the different vehicles
 }
 
@@ -127,6 +127,6 @@ func generateRating() {
 				}
 			}
 		}
-		vehResult = vehicleResult[v.Name]
+		//vehResult = vehicleResult[v.Name]
 	}
 }
