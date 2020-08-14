@@ -150,3 +150,8 @@ func (c *car) carDetails() {
 	fmt.Printf("\n%-5v:%-8v: %-12v ", "Car", c.make, c.model)
 	showRating(c.model)
 }
+
+func (b *bike) bikeDetails() {
+	fmt.Printf("\n%-5v: %-8v: %-12v ", "bike", b.make, b.model)
+	showRating(b.model)
+}
