@@ -85,7 +85,7 @@ func main() {
 		case truck:
 			v.truckDetails()
 		default:
-			fmt.Printf("Are you sure thi Vehicle Type exists")
+			fmt.Printf("Are you sure this Vehicle Type exists")
 		}
 }
 
